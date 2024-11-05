@@ -34,7 +34,7 @@ pip install qrcode[pil]
 
 
 # 使用範例
-from QRcode import generate_qr_code
+from qr_code import generate_qr_code
 url = "https://github.com/DYC-DD"
 generate_qr_code(url, filename="name.png")
 """
